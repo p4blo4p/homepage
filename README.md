@@ -32,3 +32,20 @@ Styles are handled through CSS variables. To update the colors you just need to 
 | `--searchBg`       | `--containerBg`            | Defines the background color of the search overlay                                                                         |
 | `--scrollbarColor` | `#3f3f3f`                  | Defines the color of the custom scrollbars                                                                                 |
 | `--fontFamily`     | `"Roboto Mono", monospace` | Defines the font used. To change to a custom font you will also have to import that font from whatever source is available |
+
+
+# Calendars
+
+## Releases
+```
+Final Fantasy — June 13, 2025
+Edge of Eternities — August 1, 2025
+Spider-Man — September 26, 2025
+Avatar: The Last Airbender — November 21, 2025
+```
+## Rotacion
+```
+Año	Fecha de Rotación	Sets que Salen
+2025	Agosto	Dominaria United, The Brothers' War, Phyrexia: All Will Be One, March of the Machine
+2027	Enero/Febrero	Wilds of Eldraine, The Lost Caverns of Ixalan, Murders at Karlov Manor, Outlaws of Thunder Junction, Bloomburrow, Duskmourn
+```
