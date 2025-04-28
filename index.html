@@ -71,7 +71,7 @@
               let json = JSON.parse(xhr.responseText);
               document.getElementById("temp").innerHTML =
                 json.main.temp.toFixed(0) + " ºC";
-              document.getElementById("weather-icon").innerHTML = "https://openweathermap.org/img/wn/" + json.main.icon + ".png";
+              document.getElementById("weather-icon").innerHTML = "https://openweathermap.org/img/wn/" + json.weather[0].icon + ".png";
               document.getElementById("weather-description").innerHTML =
                 json.weather[0].description;
             } else {
