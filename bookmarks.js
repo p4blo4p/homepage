@@ -1,11 +1,11 @@
 // Note: having length != 4 will mess with layout based on how the site is styled
 const bookmarks = [
   {
-    title: "Daily",
+    title: "IA",
     links: [
-      { name: "Inbox", url: "https://inbox.google.com" },
-      { name: "GitHub", url: "https://github.com" },
-      { name: "Drive", url: "https://drive.google.com" },
+      { name: "perplexity", url: "https://www.perplexity.ai/" },
+      { name: "deepseek", url: "https://www.deepseek.com/en" },
+      { name: "qwen", url: "https://chat.qwen.ai/" },
     ],
   },
   {
