@@ -57,70 +57,108 @@ Año	Fecha de Rotación	Sets que Salen
 # Cognados
 
 ```
-Palabra (Español / Inglés)	Longitud
-gas – gas	3
-sol – sol (nombre propio)	3
-4 letras:
-| base – base | 4 |
-| club – club | 4 |
-| info – info (abreviatura) | 4 |
+3 letras
+gas – gas
 
-5 letras:
-| actor – actor | 5 |
-| base – base | 4 |
-| brutal – brutal | 6 |
-| cancer – cancer | 6 |
-| club – club | 4 |
-| color – color | 5 |
-| final – final | 5 |
-| honor – honor | 5 |
-| hotel – hotel | 5 |
-| legal – legal | 5 |
-| moral – moral | 5 |
-| radio – radio | 5 |
-| total – total | 5 |
-| viral – viral | 5 |
-| video – video | 5 |
+sol – sol (nombre propio, el astro)
 
-6 letras:
-| animal – animal | 6 |
-| brutal – brutal | 6 |
-| cancer – cancer | 6 |
-| factor – factor | 6 |
-| future – futuro* | 6 |
-| manual – manual | 6 |
-| moral – moral | 5 |
-| normal – normal | 6 |
-| rural – rural | 5 |
-| viral – viral | 5 |
+4 letras
+base – base
 
-7 letras:
-| capital – capital | 7 |
-| central – central | 7 |
-| digital – digital | 7 |
-| factor – factor | 6 |
-| manual – manual | 6 |
-| normal – normal | 6 |
-| original – original | 8 |
-| perfume – perfume | 7 |
-| private – privado* | 7 |
-| similar – similar | 7 |
-| tropical – tropical | 8 |
-| virtual – virtual | 7 |
+club – club
 
-8 letras:
-| artificial – artificial | 10 |
-| chocolate – chocolate | 9 |
-| director – director | 8 |
-| festival – festival | 8 |
-| hospital – hospital | 8 |
-| original – original | 8 |
-| tropical – tropical | 8 |
+info – info (abreviatura)
 
-9 letras y más:
-| academic – académico* | 8 / 9 |
-| automatic – automático* | 9 / 10 |
-| democratic – democrático* | 11 / 12 |
-| information – información* | 11 / 12 |
-| university – universidad* | 10 / 12 |
+5 letras
+actor – actor
+
+color – color
+
+final – final
+
+honor – honor
+
+hotel – hotel
+
+legal – legal
+
+moral – moral
+
+radio – radio
+
+total – total
+
+video – video
+
+viral – viral
+
+6 letras
+animal – animal
+
+banana – banana
+
+cancer – cancer
+
+factor – factor
+
+manual – manual
+
+normal – normal
+
+rural – rural
+
+7 letras
+capital – capital
+
+central – central
+
+digital – digital
+
+general – general
+
+perfume – perfume
+
+private – privado*
+
+similar – similar
+
+virtual – virtual
+
+8 letras
+academic – académico*
+
+director – director
+
+festival – festival
+
+flexible – flexible
+
+hospital – hospital
+
+original – original
+
+probable – probable
+
+terminal – terminal
+
+tropical – tropical
+
+9 letras
+authentic – auténtico*
+
+chocolate – chocolate
+
+10 letras
+artificial – artificial
+
+automatic – automático*
+
+horizontal – horizontal
+
+11 letras
+democratic – democrático*
+
+information – información*
+
+university – universidad*
 ```
