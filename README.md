@@ -36,6 +36,9 @@ Styles are handled through CSS variables. To update the colors you just need to 
 
 # Calendars
 
+## csv para google calendar
+https://support.google.com/calendar/answer/37118?co=GENIE.Platform%3DDesktop#zippy=%2Ccrea-o-edita-un-archivo-csv
+
 ## Releases
 ```
 Final Fantasy — June 13, 2025
