@@ -52,3 +52,75 @@ Año	Fecha de Rotación	Sets que Salen
 2025	Agosto	Dominaria United, The Brothers' War, Phyrexia: All Will Be One, March of the Machine
 2027	Enero/Febrero	Wilds of Eldraine, The Lost Caverns of Ixalan, Murders at Karlov Manor, Outlaws of Thunder Junction, Bloomburrow, Duskmourn
 ```
+
+
+# Cognados
+
+```
+Palabra (Español / Inglés)	Longitud
+gas – gas	3
+sol – sol (nombre propio)	3
+4 letras:
+| base – base | 4 |
+| club – club | 4 |
+| info – info (abreviatura) | 4 |
+
+5 letras:
+| actor – actor | 5 |
+| base – base | 4 |
+| brutal – brutal | 6 |
+| cancer – cancer | 6 |
+| club – club | 4 |
+| color – color | 5 |
+| final – final | 5 |
+| honor – honor | 5 |
+| hotel – hotel | 5 |
+| legal – legal | 5 |
+| moral – moral | 5 |
+| radio – radio | 5 |
+| total – total | 5 |
+| viral – viral | 5 |
+| video – video | 5 |
+
+6 letras:
+| animal – animal | 6 |
+| brutal – brutal | 6 |
+| cancer – cancer | 6 |
+| factor – factor | 6 |
+| future – futuro* | 6 |
+| manual – manual | 6 |
+| moral – moral | 5 |
+| normal – normal | 6 |
+| rural – rural | 5 |
+| viral – viral | 5 |
+
+7 letras:
+| capital – capital | 7 |
+| central – central | 7 |
+| digital – digital | 7 |
+| factor – factor | 6 |
+| manual – manual | 6 |
+| normal – normal | 6 |
+| original – original | 8 |
+| perfume – perfume | 7 |
+| private – privado* | 7 |
+| similar – similar | 7 |
+| tropical – tropical | 8 |
+| virtual – virtual | 7 |
+
+8 letras:
+| artificial – artificial | 10 |
+| chocolate – chocolate | 9 |
+| director – director | 8 |
+| festival – festival | 8 |
+| hospital – hospital | 8 |
+| original – original | 8 |
+| tropical – tropical | 8 |
+
+9 letras y más:
+| academic – académico* | 8 / 9 |
+| automatic – automático* | 9 / 10 |
+| democratic – democrático* | 11 / 12 |
+| information – información* | 11 / 12 |
+| university – universidad* | 10 / 12 |
+```
