@@ -28,9 +28,15 @@
 
     <div id="windy-widget"></div>
       <div id="bookmark-container"></div>
-<iframe src="https://calendar.google.com/calendar/embed?src=your_calendar_id&ctz=Europe/Madrid"
-  style="border:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-
+<h2>Calendario de eventos</h2>
+<div id="calendar-container">
+  <!-- El calendario se cargará aquí tras aceptar cookies -->
+</div>
+<div id="cookie-banner">
+  Este sitio utiliza cookies para mostrar el calendario de Google Calendar. 
+  <a href="/politica-de-cookies.html" target="_blank" style="color:#90caf9;">Saber más</a>
+  <button id="accept-cookies">Aceptar</button>
+</div>
     </div>
 
     <script src="bookmarks.js"></script>
@@ -63,6 +69,34 @@
     width: "100%",
     height: "300"
   });
+</script>
+    <script>
+function showCalendarWidget() {
+  const container = document.getElementById('calendar-container');
+  // Cambia el src por el de tu calendario público
+  const iframe = document.createElement('iframe');
+  iframe.src = "https://calendar.google.com/calendar/embed?src=tu_calendario_publico%40gmail.com&ctz=Europe/Madrid";
+  iframe.style.border = "0";
+  iframe.width = "800";
+  iframe.height = "600";
+  iframe.frameBorder = "0";
+  iframe.scrolling = "no";
+  container.appendChild(iframe);
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  if (localStorage.getItem('cookiesAccepted') === 'true') {
+    showCalendarWidget();
+  } else {
+    document.getElementById('cookie-banner').style.display = 'block';
+  }
+
+  document.getElementById('accept-cookies').onclick = function() {
+    localStorage.setItem('cookiesAccepted', 'true');
+    document.getElementById('cookie-banner').style.display = 'none';
+    showCalendarWidget();
+  };
+});
 </script>
     <script>
       const searchUrl = "https://google.com/search?q=";
