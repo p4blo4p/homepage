@@ -34,7 +34,7 @@
   loading="lazy"
   referrerpolicy="no-referrer-when-downgrade">
 </iframe>
-
+    <div id="windy-widget"></div>
       <div id="bookmark-container"></div>
     </div>
 
@@ -42,7 +42,33 @@
     <script async src="https://app3.weatherwidget.org/js/?id=ww_e3ce19a8ec982"></script>
     <script type="text/javascript"> var css_file=document.createElement("link"); var widgetUrl = encodeURIComponent(location.href); css_file.setAttribute("rel","stylesheet"); css_file.setAttribute("type","text/css"); css_file.setAttribute("href",'https://s.bookcdn.com/css/w/booked-wzs-widget-275.css?v=0.0.1'); document.getElementsByTagName("head")[0].appendChild(css_file); function setWidgetData_27240(data) { if(typeof(data) != 'undefined' && data.results.length > 0) { for(var i = 0; i < data.results.length; ++i) { var objMainBlock = document.getElementById('m-booked-weather-bl250-27240'); if(objMainBlock !== null) { var copyBlock = document.getElementById('m-bookew-weather-copy-'+data.results[i].widget_type); objMainBlock.innerHTML = data.results[i].html_code; if(copyBlock !== null) objMainBlock.appendChild(copyBlock); } } } else { alert('data=undefined||data.results is empty'); } } var widgetSrc = "https://widgets.booked.net/weather/info?action=get_weather_info;ver=7;cityID=19349;type=3;scode=;ltid=3458;domid=582;anc_id=45822;countday=undefined;cmetric=1;wlangID=4;color=137AE9;wwidth=160;header_color=ffffff;text_color=333333;link_color=08488D;border_form=1;footer_color=ffffff;footer_text_color=333333;transparent=0;v=0.0.1";widgetSrc += ';ref=' + widgetUrl;widgetSrc += ';rand_id=27240';var weatherBookedScript = document.createElement("script"); weatherBookedScript.setAttribute("type", "text/javascript"); weatherBookedScript.src = widgetSrc; document.body.appendChild(weatherBookedScript) </script><!-- weather widget end -->
     <script type="text/javascript"> var css_file=document.createElement("link"); var widgetUrl = encodeURIComponent(location.href); css_file.setAttribute("rel","stylesheet"); css_file.setAttribute("type","text/css"); css_file.setAttribute("href",'https://s.bookcdn.com/css/weather.css?v=0.0.1'); document.getElementsByTagName("head")[0].appendChild(css_file); function setWidgetData_4056(data) { if(typeof(data) != 'undefined' && data.results.length > 0) { for(var i = 0; i < data.results.length; ++i) { var objMainBlock = document.getElementById('m-booked-custom-widget-4056'); if(objMainBlock !== null) { var copyBlock = document.getElementById('m-bookew-weather-copy-'+data.results[i].widget_type); objMainBlock.innerHTML = data.results[i].html_code; if(copyBlock !== null) objMainBlock.appendChild(copyBlock); } } } else { alert('data=undefined||data.results is empty'); } } var widgetSrc = "https://widgets.booked.net/weather/info?action=get_weather_info;ver=7;cityID=19349,858,35075,19348,18182;type=2;scode=;ltid=3457;domid=582;anc_id=90629;countday=undefined;cmetric=1;wlangID=4;color=009fde;wwidth=250;header_color=ffffff;text_color=333333;link_color=08488D;border_form=1;footer_color=ffffff;footer_text_color=333333;transparent=0;v=0.0.1";widgetSrc += ';ref=' + widgetUrl;widgetSrc += ';rand_id=4056';var weatherBookedScript = document.createElement("script"); weatherBookedScript.setAttribute("type", "text/javascript"); weatherBookedScript.src = widgetSrc; document.body.appendChild(weatherBookedScript) </script><!-- weather widget end -->
-    
+    <script async src="https://windy.app/widgets-code/forecast/windy_forecast_widget.js"></script>
+<script>
+  window.WindyWidget = window.WindyWidget || [];
+  window.WindyWidget.push({
+    selector: "#windy-widget",
+    spotId: "389247", // ID de Playa Sta Ma del Mar en Windy.app
+    apiKey: "", // Deja vacío, no es necesario para el widget estándar
+    showSpotName: true,
+    showTemperature: true,
+    showWind: true,
+    showWindDirection: true,
+    showGust: true,
+    showPressure: false,
+    showPrecipitation: false,
+    showWaves: true,
+    showWeather: true,
+    showHumidity: false,
+    showClouds: false,
+    showDay: true,
+    showNight: false,
+    showLocalTime: true,
+    language: "es",
+    units: "metric",
+    width: "100%",
+    height: "300"
+  });
+</script>
     <script>
       const searchUrl = "https://google.com/search?q=";
       // Search on enter key event
