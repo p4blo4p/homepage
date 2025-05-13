@@ -28,6 +28,7 @@
 
     <div id="windy-widget"></div>
       <div id="bookmark-container"></div>
+      <div id="ofertas-widget"></div>
     </div>
 
     <script src="bookmarks.js"></script>
@@ -111,5 +112,27 @@
         }
       });
     </script>
+    <script>
+const ofertas = [
+  { titulo: "10% de descuento en tu primera compra", codigo: "PRIMER10", valido: "Hasta 31/05", link: "#" },
+  { titulo: "Envío gratis en pedidos superiores a 50€", codigo: "ENVIO50", valido: "Hasta 20/05", link: "#" },
+  { titulo: "2x1 en gafas de sol", codigo: "2X1SOL", valido: "Solo esta semana", link: "#" }
+];
+
+function renderOfertas(ofertas) {
+  let html = '<ul style="list-style:none;padding:0;">';
+  ofertas.forEach(oferta => {
+    html += `<li style="margin-bottom:12px;padding:10px;border:1px solid #eee;border-radius:6px;">
+      <strong>${oferta.titulo}</strong><br>
+      <span>Código: <b>${oferta.codigo}</b></span><br>
+      <span style="color:gray;">${oferta.valido}</span><br>
+      <a href="${oferta.link}" style="color:#2196F3;">¡Aprovechar!</a>
+    </li>`;
+  });
+  html += '</ul>';
+  document.getElementById('ofertas-widget').innerHTML = html;
+}
+renderOfertas(ofertas);
+</script>
   </body>
 </html>
